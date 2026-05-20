@@ -17,7 +17,7 @@ export default function NFT(props) {
   const textColorDate = useColorModeValue("secondaryGray.600", "white");
   return (
     <Card
-      diplay="none"
+      display="none"
       _hover={bgItem}
       bg='transparent'
       boxShadow='unset'
