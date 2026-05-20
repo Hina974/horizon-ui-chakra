@@ -1,3 +1,6 @@
+// CACHER
+
+
 import {
   Button,
   Flex,
@@ -15,6 +18,7 @@ export default function SidebarDocs() {
 
   return (
     <Flex
+      display= 'none'
       justify='center'
       direction='column'
       align='center'

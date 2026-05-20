@@ -1,3 +1,5 @@
+// CACHER
+
 import React from "react";
 
 // Chakra imports
@@ -10,6 +12,7 @@ export default function Banner() {
   // Chakra Color Mode
   return (
     <Flex
+      display="none"
       direction='column'
       bgImage={banner}
       bgSize='cover'
