@@ -80,7 +80,7 @@ export default function UserReports() {
             />
           }
           name='Earnings'
-          value='$350.4'
+          value='350.4€'
         />
         <MiniStatistics
           startContent={
@@ -94,9 +94,9 @@ export default function UserReports() {
             />
           }
           name='Spend this month'
-          value='$642.39'
+          value='642.39€'
         />
-        <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
+        <MiniStatistics growth='+23%' name='Sales' value='574.34€' />
         <MiniStatistics
           endContent={
             <Flex me='-16px' mt='10px'>
@@ -108,7 +108,7 @@ export default function UserReports() {
                 variant='mini'
                 mt='5px'
                 me='0px'
-                defaultValue='usd'>
+                defaultValue='eur'>
                 <option value='usd'>USD</option>
                 <option value='eur'>EUR</option>
                 <option value='gba'>GBA</option>
@@ -116,7 +116,7 @@ export default function UserReports() {
             </Flex>
           }
           name='Your balance'
-          value='$1,000'
+          value='1,000€'
         />
         <MiniStatistics
           startContent={
