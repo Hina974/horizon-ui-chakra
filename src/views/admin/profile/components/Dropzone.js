@@ -7,8 +7,8 @@ import { useDropzone } from "react-dropzone";
 function Dropzone(props) {
   const { content, ...rest } = props;
   const { getRootProps, getInputProps } = useDropzone();
-  const bg = useColorModeValue("gray.100", "navy.700");
-  const borderColor = useColorModeValue("secondaryGray.100", "whiteAlpha.100");
+  const bg = useColorModeValue("navy.700", "gray.100");
+  const borderColor = useColorModeValue("whiteAlpha.100", "secondaryGray.100");
   return (
     <Flex
       align='center'
