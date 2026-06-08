@@ -38,6 +38,8 @@ import tableDataColumns from "views/admin/dataTables/variables/tableDataColumns.
 import tableDataComplex from "views/admin/dataTables/variables/tableDataComplex.json";
 import React from "react";
 
+import ProductForm from "./components/ProductForm";
+
 export default function Settings() {
   // Chakra Color Mode
   return (
@@ -59,6 +61,7 @@ export default function Settings() {
           columnsData={columnsDataComplex}
           tableData={tableDataComplex}
         />
+          <ProductForm />
       </SimpleGrid>
     </Box>
   );
