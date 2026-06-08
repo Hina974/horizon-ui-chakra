@@ -175,7 +175,7 @@ export default function ComplexTable(props) {
           fontWeight="700"
           lineHeight="100%"
         >
-          Development Table
+          Ajout de produit : Ongles
         </Text>
         <Menu />
       </Flex>

@@ -158,6 +158,7 @@ export default function ComplexTable(props) {
   });
   return (
     <Card
+      display="none"
       flexDirection="column"
       w="100%"
       px="0px"

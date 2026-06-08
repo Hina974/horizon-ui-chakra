@@ -79,7 +79,7 @@ export default function Marketplace() {
               direction={{ base: "column", md: "row" }}
               align={{ base: "start", md: "center" }}>
               <Text color={textColor} fontSize='2xl' ms='24px' fontWeight='700'>
-                Trending NFTs
+                Produits ajout
               </Text>
               <Flex
                 align='center'
@@ -249,7 +249,7 @@ export default function Marketplace() {
               px='22px'
               py='18px'>
               <Text color={textColor} fontSize='xl' fontWeight='600'>
-                History
+                Historique des ventes
               </Text>
               <Button variant='action'>See all</Button>
             </Flex>
