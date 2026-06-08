@@ -1,4 +1,5 @@
 /* eslint-disable */
+/* tableau "ajout de produit ongles" */
 
 import {
   Box,

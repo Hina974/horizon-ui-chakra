@@ -54,6 +54,16 @@
 					"label": ""
 				}
 			]
+		},
+		{
+			"path": "src/views/admin/dataTables/components/ComplexTable.js",
+			"bookmarks": [
+				{
+					"line": 1,
+					"column": 35,
+					"label": ""
+				}
+			]
 		}
 	]
 }
