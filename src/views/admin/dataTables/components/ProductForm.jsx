@@ -114,7 +114,7 @@ export default function ProductForm() {
               borderColor="whiteAlpha.300"
             >
               <option value="round">Round</option>
-              <option value="almond">Almound</option>
+              <option value="almond">Almond</option>
               <option value="stiletto">Stiletto</option>
               <option value="square">Square</option>
               <option value="coffin">Coffin</option>
